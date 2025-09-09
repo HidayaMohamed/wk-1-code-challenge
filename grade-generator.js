@@ -47,3 +47,4 @@ if (marks > 100 || marks < 0) {
 else {
   console.log("input marks");
 }
+ console.log(marks)
