@@ -1,4 +1,5 @@
-let marks;
+let marks = prompt("Please enter marks:");
+console.log(marks)
 
 if (marks > 100 || marks < 0) {
     console.log("Marks invalid.")
@@ -13,7 +14,7 @@ if (marks > 100 || marks < 0) {
 } else if(marks <40 ){
      console.log("Grade = E")
 } else {
-    console.log("input marks.")
+    console.log("input marks")
 }
 
 console.log(marks);
