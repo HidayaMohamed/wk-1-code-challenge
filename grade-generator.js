@@ -1,6 +1,9 @@
 let marks = prompt("Please enter marks:");
-console.log(marks);
-
+if (marks !== null && marks !== "") {
+  console.log(marks);
+} else {
+  console, log("input marks");
+}
 if (marks > 100 || marks < 0) {
   console.log("Marks invalid.");
 } else if (marks >= 79) {
@@ -16,5 +19,3 @@ if (marks > 100 || marks < 0) {
 } else {
   console.log("input marks");
 }
-
-console.log(marks);
