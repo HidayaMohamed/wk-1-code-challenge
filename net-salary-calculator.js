@@ -1,0 +1,3 @@
+function netSalary(basicSalary, benefits) {
+    
+}
