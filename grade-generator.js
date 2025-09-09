@@ -1,15 +1,20 @@
-const marks = Input;
+let marks;
 
-if (input > 100 && input < 0) {
-    return "Marks invalid."
-} else if (input >= 79) {
-    return "Grade = A "
-} else if(input >= 60){
-    return " Grade = B"
-} else if (input >= 49) {
-    return "Grade = C"
-} else if (input >= 40) {
-    return "Grade = D"
+if (marks > 100 || marks < 0) {
+    console.log("Marks invalid.")
+} else if (marks >= 79) {
+     console.log("Grade = A ")
+} else if(marks >= 60){
+     console.log("Grade =B")
+} else if (marks >= 49) {
+     console.log("Grade = C")
+} else if (marks >= 40) {
+     console.log("Grade = D")
+} else if(marks <40 ){
+     console.log("Grade = E")
 } else {
-    return 'Grade = E'
+    console.log("input marks.")
 }
+
+console.log(marks);
+
