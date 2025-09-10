@@ -15,7 +15,7 @@ if (speed <= 70) {
 else {
   overSpeed = speed - 70;
   demeritPoints = overSpeed / 5;
-  console.log(demeritPoints);
+  console.log(`points = ${demeritPoints}`);
   if (demeritPoints > 12) {
     console.log("License suspended.");
   }
