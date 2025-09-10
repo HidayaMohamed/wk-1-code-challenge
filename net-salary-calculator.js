@@ -2,12 +2,11 @@
  *  it then calculates gross salary, PAYE, SHIF and NSSF deductions
  *  and returns the net salary  */
 
-
 // the netSalary function takes basicSalary and benefits as parameters.
-function netSalary(basicSalary, benefits) { 
-/** The if function here checks for the basicSalary amount and 
- * if it satifies the conditions executes the subsequent codes codes. */   
-    if (basicSalary <= 24000) {
+function netSalary(basicSalary, benefits) {
+  /** The if function here checks for the basicSalary amount and
+   * if it satifies the condition executes the subsequent codes codes. */
+  if (basicSalary <= 24000) {
     grossSalary = basicSalary + benefits;
     tax = basicSalary * 0.1;
     shif = grossSalary * 0.0275;

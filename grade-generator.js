@@ -20,31 +20,30 @@ if (marks !== null && marks !== "") {
 if (marks > 100 || marks < 0) {
   console.log("Marks invalid.");
 } else if (marks >= 79) {
-
-/**The second if grades marks greater than or
- *  eqaul to79 as A*/
+  /**The second if grades marks greater than or
+   *  eqaul to79 as A*/
   console.log("Grade = A ");
 } else if (marks >= 60) {
-/**This is the third if and it grades B for marks
- * greater than or eqaul to 60*/
+  /**This is the third if and it grades B for marks
+   * greater than or eqaul to 60*/
   console.log("Grade = B");
 } else if (marks >= 49) {
-/**This is the fourth if and it grades C for marks
- * greater than or eqal to 49
- */
+  /**This is the fourth if and it grades C for marks
+   * greater than or eqal to 49
+   */
   console.log("Grade = C");
 } else if (marks >= 40) {
-/** This is the fifth if and it grades D for marks
- * greater rhan or equal to 40
- */
+  /** This is the fifth if and it grades D for marks
+   * greater rhan or equal to 40
+   */
   console.log("Grade = D");
 } else if (marks < 40) {
-/** This is the sixth if and is grades E for marks
- * less than 40.*/
+  /** This is the sixth if and is grades E for marks
+   * less than 40.*/
   console.log("Grade = E");
 }
 // This is the last if and it displays 'input marks' if no marks are input.
 else {
   console.log("input marks");
 }
- console.log(marks)
+console.log(marks);
